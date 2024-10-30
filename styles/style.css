@@ -13,49 +13,10 @@
     width: 100%;
     height: auto;
   }
-  html, body {
-    background-color: rgb(246, 190, 199);
-}
 
-button {
-    margin: 1vw;
-    width: 15vw;
-    height: auto;
-    align-items: center;
-
-    font-size: 1.5vw;
-}
-
-#welcome_message {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    margin: 0;
-    text-align: center;
-
-    font-size: 6vw;
-    color: pink;
-}
-
-#banner {
-    margin-top: 15vh;
-
-    background-image: url(../images/banner.jpg);
-    background-size: 100% auto;
-}
-
-#buttons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(174, 174, 213);
-    text-align: center;
-    padding: 10px 0;
-    margin-right: 5%;
+  .rounded-circle {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    /* Centers the circle horizontally */
   }
-
-
